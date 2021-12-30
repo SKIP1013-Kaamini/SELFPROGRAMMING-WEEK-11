@@ -1,0 +1,7 @@
+int total = 0; 
+      int[] arrEx = {22 , 8, 97, 3}; 
+      for (int element : arrEx){
+         total = total + element; 
+      }
+      // Result of total
+      System.out.println("The sum of the values in arrEx = " + total);
