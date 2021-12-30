@@ -1,0 +1,19 @@
+package selfprogramming;
+class notesslide17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+
+double[] sales = new double[10];
+int index;
+
+for(index = 0; index < sales.length;index++)
+	System.out.print(sales[index] + " ");
+
+
+
+	}
+
+}
