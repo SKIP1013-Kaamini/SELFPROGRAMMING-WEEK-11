@@ -1,0 +1,21 @@
+package selfprogramming;
+import java.util.Arrays;
+class ONLINEEXERCISEa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] number = { 23,34,56,78,24,196,12 };
+		String[] name = { "Aron","Devan","Syuhada","Huda","Layla"};
+		
+		System.out.println("Here are the numbers entered : " + Arrays.toString(number));
+		Arrays.sort(number);
+		System.out.println("Here are the arranged numbers :" + Arrays.toString(number));
+		System.out.println("Here are the names entered : " + Arrays.toString(name));
+		Arrays.sort(name);
+		System.out.println("Here are the arranged numbers :" + Arrays.toString(name));
+		
+
+	}
+
+}
